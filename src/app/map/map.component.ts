@@ -12,6 +12,8 @@ import OSM from 'ol/source/OSM';
   styleUrl: './map.component.css'
 })
 export class MapComponent implements OnInit {
+  timer: any;
+  timeRemaining: number = 60000;
   map: Map;
 
   ngOnInit() {
@@ -24,9 +26,13 @@ export class MapComponent implements OnInit {
       ],
       view: new View({
         center: [0, 0],
-        zoom: 5
+        zoom: 0
       })
     });
   }
 
+  startTimer() {
+    this.timer = setInterval(() => {
+    }, 1000)
+  }
 }

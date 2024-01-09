@@ -11,4 +11,9 @@ import { RouterLink, RouterLinkActive, RouterOutlet } from '@angular/router';
 })
 export class AppComponent {
   title = 'catch-the-hacker';
+  // const timer: number;
+  // const timeRemaining: number;
+  // const timerDiv: string;
+
+
 }
