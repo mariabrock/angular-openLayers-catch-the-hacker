@@ -1,0 +1,9 @@
+.container {
+  display: flex;
+  flex-direction: row;
+}
+
+.admin-panel {
+  width: 20em;
+  background-color: var(--sidebar-color);
+}

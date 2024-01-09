@@ -1,0 +1,9 @@
+:host {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+header {
+  background-color: var(--header-color);
+  padding: 2em;
+}
